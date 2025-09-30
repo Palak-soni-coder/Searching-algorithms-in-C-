@@ -77,8 +77,22 @@ Searching is the process of finding whether an element (key) exists in a dataset
 
 ---
 
-## Algorithms
+## Concepts Used
+- **Arrays:** To store input elements.  
+- **Searching Algorithms:** Sequential, Linear, and Binary.  
+- **Functions:** Binary search implemented with a separate function.  
+- **Control Structures:** Loops (`for`, `while`) and decision-making (`if-else`).  
+- **Complexity Analysis:** Understanding time/space efficiency of algorithms.  
 
+---
+
+## Algorithms
+### 1.
+### Sequential Search Program
+- Takes `n` elements as input.  
+- Uses a **basic loop** to check each element.  
+- Returns index/position if found, else displays not found.
+- 
 ### Algorithm for Sequential Search
 1. Input the number of elements `n`.  
 2. Input `n` elements into the array.  
@@ -88,7 +102,13 @@ Searching is the process of finding whether an element (key) exists in a dataset
 5. If end of array reached → element not found.  
 
 ---
+### 2.
 
+### Linear Search Program
+- Similar to sequential but implemented more structurally.  
+- Works on **unsorted data**.  
+- Stops after finding the **first occurrence** of the key.
+- 
 ### Algorithm for Linear Search
 1. Input the number of elements `n`.  
 2. Input `n` elements into the array.  
@@ -98,7 +118,12 @@ Searching is the process of finding whether an element (key) exists in a dataset
 6. If no match found → print "Element not found".  
 
 ---
-
+### 3.
+### Binary Search Program
+- Works on **sorted data only**.  
+- Repeatedly divides the array in half.  
+- Much faster for large datasets.
+- 
 ### Algorithm for Binary Search
 1. Input the number of elements `n`.  
 2. Input `n` sorted elements into the array.  
@@ -110,34 +135,6 @@ Searching is the process of finding whether an element (key) exists in a dataset
    - Else if `arr[mid] < key` → set `low = mid + 1`.  
    - Else → set `high = mid - 1`.  
 6. If not found → print "Element not found".  
-
----
-
-## Program Summaries
-
-### Sequential Search Program
-- Takes `n` elements as input.  
-- Uses a **basic loop** to check each element.  
-- Returns index/position if found, else displays not found.  
-
-### Linear Search Program
-- Similar to sequential but implemented more structurally.  
-- Works on **unsorted data**.  
-- Stops after finding the **first occurrence** of the key.  
-
-### Binary Search Program
-- Works on **sorted data only**.  
-- Repeatedly divides the array in half.  
-- Much faster for large datasets.  
-
----
-
-## Concepts Used
-- **Arrays:** To store input elements.  
-- **Searching Algorithms:** Sequential, Linear, and Binary.  
-- **Functions:** Binary search implemented with a separate function.  
-- **Control Structures:** Loops (`for`, `while`) and decision-making (`if-else`).  
-- **Complexity Analysis:** Understanding time/space efficiency of algorithms.  
 
 ---
 
